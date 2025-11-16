@@ -8,9 +8,9 @@
 ### step 1:在github中新建一个仓库
 1. 注册登录[GitHub官网](https://github.com/)
 
-2. 右上角"repositories"（n pl. 仓库）
+2. 右上角"repositories"（n pl. 仓库），进去后选new
 ![where repository](./images/where-repository.png)
-进去后选new
+
 
 > 主页左边有自己的所有仓库的目录预览，也能快捷点new
 
@@ -38,7 +38,7 @@ git add xxx #xxx为要标记的具体文件路径
 git add .   #标记当前目录所有文件
 ```
 
-6.永久保存当前版本到本地，并编写版本更新注释
+6. 永久保存当前版本到本地，并编写版本更新注释
 - `git commit`:使用后会跳转到vim界面
 - 按下键盘a/i键进入编辑模式，输入你要注释的版本信息（如：first commitment）
 - esc退出编辑模式，输入英文冒号再输入w（write）q（quite）字母完成编辑并成功保存`:wq`
